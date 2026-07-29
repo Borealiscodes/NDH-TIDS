@@ -1,128 +1,121 @@
-# **README.md — NDH‑TIDS**  
-### *Topological Inter‑System Dynamics*  
-### **Status: Under Construction 🏗**  
-### **Phase: Orbital Systems Migration**
+# **NDH‑TIDS — Top‑Level README**  
+### *NDH Trauma‑Informed Meta‑Architecture & Cross‑System Comparative Layer*
+
+## **Purpose**
+NDH‑TIDS is the **Trauma‑Informed‑Design meta‑architecture layer for NDH**, focused on:
+
+- invariant‑driven reasoning  
+- envelope‑scoped execution  
+- continuity‑checked transitions  
+- trauma‑informed architectural motifs  
+- cross‑system comparative analysis  
+
+NDH‑TIDS is **not** NDH governance and **not** the Trauma‑Informed‑Systems‑Design repo.  
+It is NDH’s *internal* architectural layer that draws conceptual inspiration from TISD but remains a **separate codebase**.
 
 ---
 
-## **Overview**
+## **Repository Structure**
 
-**Topological Inter‑System Dynamics (TIDS)** is the NDH layer responsible for **topological routing**, **manifold interaction**, and **operator binding** between NDH‑CORE and the upper governance layers.
+### **1 — Comparative Layer**  
+Cross‑system architectural comparisons between NDH and external AI systems.
 
-TIDS ensures that NDH‑CORE operators — including the **Resonance‑Translation Operator** (RTO) and **Non‑Dual Interpretive Encoder** (NDIE) — are translated into stable, resonance‑aligned manifold dynamics without narrative contamination or loss of provenance.
-
-TIDS is the **mathematical bridge** between NDH‑CORE and Orbital.
-
----
-
-## **Current Status — Under Construction 🏗**
-
-This repository is in active development.  
-The following components are being migrated, formalized, or stabilized:
-
-- RTO/NDIE binding logic  
-- manifold interaction rules  
-- tensor‑flow routing  
-- holonomy envelope alignment  
-- non‑dual boundary enforcement  
-- provenance‑safe operator exposure to Orbital  
-
-TIDS is not yet simulation‑ready.  
-Simulation will remain blocked until TIDS completes its operator binding and Orbital integration.
-
----
-
-## **Orbital Systems Migration**
-
-TIDS is currently undergoing a **migration of Orbital‑related documents** that were previously staged inside other repos (NDH‑Platforms, NDH‑Core drafts, and conceptual folders).
-
-The migration includes:
-
-### **Incoming from Orbital**
-- Operator Integration Document (OID) references  
-- Provenance Preservation Protocol (OPPP) dependencies  
-- Simulation Readiness Document (OSRD) interface requirements  
-- Unified NDH Roadmap alignment points  
-
-### **Outgoing to Orbital**
-- stable RTO/NDIE binding specification  
-- manifold interaction definitions  
-- tensor‑flow coherence rules  
-- holonomy stability envelopes  
-- non‑dual boundary enforcement logic  
-
-This migration ensures that Orbital receives **clean, provenance‑preserving operator interfaces** and that TIDS remains purely topological and non‑dual.
-
----
-
-## **Purpose of TIDS**
-
-TIDS provides:
-
-- **operator binding** between NDH‑CORE and manifolds  
-- **topological routing** of tensor flows  
-- **resonance gradient preservation**  
-- **holonomy stability**  
-- **non‑dual boundary enforcement**  
-- **provenance‑aligned interfaces** to Orbital  
-
-TIDS does **not** contain narrative scaffolding, trauma‑informed content, simulation code, or governance documents.
-
----
-
-## **Repository Structure (Initial)**
-
+Directory:  
 ```
-/bindings
-    rto-ndie-binding-spec.md
-    manifold-binding-rules.md
-
-/topology
-    tensor-routing.md
-    holonomy-alignment.md
-
-/stability
-    resonance-gradients.md
-    drift-resistance.md
-
-/interfaces
-    orbital-interface.md
-    simulation-prep.md
-
-README.md
+NDH-TIDS/comparisons/
 ```
 
+Includes:
+
+- **C‑01 NDH vs Agentic AI Safety**  
+- **C‑02 NDH vs Traditional Governance Models**  
+- **C‑03 NDH vs Multimodal Alignment Frameworks**  
+- **C‑04 NDH vs Agent Collaboration Architectures**  
+- **C‑05 NDH vs Retrieval‑Augmented Systems**  
+- **C‑06 NDH vs Sandbox & Execution Models**  
+- **S‑01 NDH‑TIDS Comparative Synthesis**  
+
+These documents are **observational**, **non‑constitutional**, and **reversible**.
+
 ---
 
-## **Roadmap Alignment**
+### **2 — NDH Meta‑Architecture Concepts**  
+Internal NDH architectural motifs:
 
-TIDS sits in the NDH spine:
+- invariant‑preserving geometry  
+- bounded autonomy  
+- envelope‑scoped execution  
+- continuity constraints  
+- safeguard activation  
+- non‑hierarchical governance surfaces  
 
+Directory:  
 ```
-NDH-CORE
-    ↓ operators
-Parallel Manifolds
-    ↓ resonance envelopes
-TIDS
-    ↓ topological binding
-Orbital
-    ↓ governance + documentation
-Emergent
-    ↓ interpretive scaffolding
-Simulation
-    ↓ tensor-holonomy testing
-External Systems
-    ↓ accessibility + narrative layers
+NDH-TIDS/concepts/
+```
+
+These notes define NDH’s internal architectural vocabulary.
+
+---
+
+### **3 — External Reference: Trauma‑Informed‑Systems‑Design (TISD)**  
+TISD is **not** part of this repo.  
+It is a **separate repository** that provides:
+
+- trauma‑informed design principles  
+- harm‑surface minimization frameworks  
+- reversible system motifs  
+- non‑coercive adaptation patterns  
+
+NDH‑TIDS **references** TISD conceptually but does not contain TISD documents.
+
+This README maintains that boundary clearly.
+
+---
+
+## **ASCII Map**
+
+```text
+=====================================================================
+| NDH‑TIDS — TOP‑LEVEL STRUCTURE                                     |
+|---------------------------------------------------------------------|
+| /comparisons/                                                       |
+|   C‑01  NDH vs Agentic AI Safety                                    |
+|   C‑02  NDH vs Traditional Governance Models                         |
+|   C‑03  NDH vs Multimodal Alignment Frameworks                      |
+|   C‑04  NDH vs Agent Collaboration Architectures                    |
+|   C‑05  NDH vs Retrieval‑Augmented Systems                          |
+|   C‑06  NDH vs Sandbox & Execution Models                           |
+|   S‑01  NDH‑TIDS Comparative Synthesis                               |
+|                                                                     |
+| /concepts/                                                          |
+|   NDH meta‑architecture motifs                                       |
+|                                                                     |
+| External: Trauma‑Informed‑Systems‑Design (separate repo)            |
+=====================================================================
 ```
 
 ---
 
-## **Next Steps**
+## **Scope Clarification**
+NDH‑TIDS documents:
 
-- Finalize **RTO/NDIE Binding Specification**  
-- Complete **Serenity Manifold interaction rules**  
-- Migrate remaining Orbital dependencies  
-- Prepare **Orbital Interface Layer**  
-- Unblock **Simulation Initialization**  
+- **do not** define NDH governance  
+- **do not** impose architectural commitments  
+- **do not** constitute constitutional material  
+- **do not** include TISD documents  
+
+They **observe**, **compare**, and **analyze** NDH’s architecture relative to external systems.
+
+---
+
+## **Footer**
+```
+---
+NDH‑TIDS Layer Anchor
+This README is observational and non‑constitutional. It provides structural
+orientation for NDH‑TIDS and maintains a clear boundary between NDH‑TIDS and
+the separate Trauma‑Informed‑Systems‑Design repository.
+```
 
 ---
