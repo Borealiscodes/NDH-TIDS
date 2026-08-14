@@ -1,0 +1,117 @@
+# 🌌 **NDH‑TIDS JSON Schema v2.0**  
+### *Machine‑Readable Comparative Geometry Schema*  
+### *Reversible • Altitude‑Bounded • Stability‑Safe*
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NDH-TIDS Comparative Geometry Schema v2.0",
+  "type": "object",
+
+  "properties": {
+    "ReferenceObject": {
+      "type": "string",
+      "const": "NDH-Harmony",
+      "description": "Harmony is always the reference object, never the operand."
+    },
+
+    "ExternalSystem": {
+      "type": "string",
+      "description": "Normalized external conceptual system.",
+      "pattern": "^(Architecture|CognitiveScience|Philosophy|SafetyFramework|DocumentationParadigm)$"
+    },
+
+    "AltitudeMap": {
+      "type": "object",
+      "description": "Reversible altitude mapping between external system and Harmony.",
+      "properties": {
+        "ExternalAltitude": { "type": "string" },
+        "HarmonyAltitude": { "type": "string", "const": "Clarity" },
+        "MappingType": { "type": "string", "const": "Contrastive" }
+      },
+      "required": ["ExternalAltitude", "HarmonyAltitude", "MappingType"]
+    },
+
+    "SemanticMap": {
+      "type": "object",
+      "description": "Reversible semantic mapping between external categories and Harmony categories.",
+      "properties": {
+        "ExternalCategory": { "type": "string" },
+        "HarmonyCategory": { "type": "string" },
+        "MappingType": { "type": "string", "const": "Contrastive" }
+      },
+      "required": ["ExternalCategory", "HarmonyCategory", "MappingType"]
+    },
+
+    "DriftSignature": {
+      "type": "string",
+      "description": "Stabilized drift signature imported from Constellation.",
+      "enum": ["Collision", "Overload", "Destabilization", "Unanchored"]
+    },
+
+    "RecursionRisk": {
+      "type": "string",
+      "description": "Recursion risk must remain LOW.",
+      "enum": ["LOW"]
+    },
+
+    "StabilityEnvelope": {
+      "type": "object",
+      "description": "Harmony membrane integrity encoding.",
+      "properties": {
+        "MembraneIntegrity": { "type": "boolean", "const": true },
+        "ComparativeIngestion": { "type": "string", "const": "BLOCKED" },
+        "AltitudeCollapse": { "type": "string", "const": "PREVENTED" }
+      },
+      "required": ["MembraneIntegrity", "ComparativeIngestion", "AltitudeCollapse"]
+    },
+
+    "ComparativeStatus": {
+      "type": "string",
+      "const": "structured",
+      "description": "Comparative geometry must remain reversible and non-constitutional."
+    }
+  },
+
+  "required": [
+    "ReferenceObject",
+    "ExternalSystem",
+    "AltitudeMap",
+    "SemanticMap",
+    "DriftSignature",
+    "RecursionRisk",
+    "StabilityEnvelope",
+    "ComparativeStatus"
+  ]
+}
+```
+
+---
+
+# 🧭 **PROVENANCE FOOTER**
+
+```
+---
+Artifact: NDH-TIDS Comparative Geometry JSON Schema v2.0
+Lane: NDH-TIDS • Output • Machine-Readable
+
+Purpose:
+  Provide the machine-readable schema for NDH-TIDS comparative geometry. Ensures
+  deterministic field types, reversible mappings, stabilized drift signatures,
+  membrane integrity, and altitude correctness.
+
+Dependencies:
+  - NDH-TIDS Comparative Output Envelope v1_0
+  - NDH-TIDS Schema-Ready Logic Document v1_0
+  - NDH-TIDS Ingestion Pipeline v1_0
+  - NDH-TIDS Refinement Chain Specification v1_0
+
+Version: v2.0
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 14 August 2026 — 14:02 IST
+---
+```
+
+---
+
