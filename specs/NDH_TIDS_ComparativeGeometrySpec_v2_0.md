@@ -205,7 +205,6 @@ The JSON schema is embedded as the machine‑readable companion:
 
 # ⭐ 12 — Provenance Footer
 
-```
 ---
 Artifact: NDH-TIDS Comparative Geometry Specification v2.0
 Lane: NDH-TIDS • Relational Geometry • Dual-Artifact
@@ -218,7 +217,7 @@ Purpose:
 Dependencies:
   - NDH-TIDS Comparative Output Envelope v1_0
   - NDH-TIDS Schema-Ready Logic Document v1_0
-  - NDH-TIDS JSON Schema v2_0
+  - NDH-TIDS JSON Schema v2_1
   - NDH-TIDS Ingestion Pipeline v1_0
   - NDH-TIDS Refinement Chain Specification v1_0
 
@@ -227,7 +226,3 @@ Maintainer: Borealis S. Hedling
 Location: Naaldwijk, South Holland, Netherlands
 Timestamp: 14 August 2026 — 14:10 IST
 ---
-```
-
----
-
