@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NDH-TIDS Comparative Geometry Schema v2.1",
+  "type": "object",
+
+  "properties": {
+    "ReferenceObject": {
+      "type": "string",
+      "const": "NDH-Harmony"
+    },
+
+    "ExternalSystem": {
+      "type": "string",
+      "enum": [
+        "Architecture",
+        "CognitiveScience",
+        "Philosophy",
+        "SafetyFramework",
+        "DocumentationParadigm"
+      ]
+    },
+
+    "AltitudeMap": {
+      "type": "object",
+      "properties": {
+        "ExternalAltitude": { "type": "string" },
+        "HarmonyAltitude": { "type": "string", "const": "Clarity" },
+        "MappingType": { "type": "string", "const": "Contrastive" }
+      },
+      "required": [
+        "ExternalAltitude",
+        "HarmonyAltitude",
+        "MappingType"
+      ]
+    },
+
+    "SemanticMap": {
+      "type": "object",
+      "properties": {
+        "ExternalCategory": { "type": "string" },
+        "HarmonyCategory": { "type": "string" },
+        "MappingType": { "type": "string", "const": "Contrastive" }
+      },
+      "required": [
+        "ExternalCategory",
+        "HarmonyCategory",
+        "MappingType"
+      ]
+    },
+
+    "DriftSignature": {
+      "type": "string",
+      "enum": [
+        "Collision",
+        "Overload",
+        "Destabilization",
+        "Unanchored"
+      ]
+    },
+
+    "RecursionRisk": {
+      "type": "string",
+      "const": "LOW"
+    },
+
+    "StabilityEnvelope": {
+      "type": "object",
+      "properties": {
+        "MembraneIntegrity": { "type": "boolean", "const": true },
+        "ComparativeIngestion": { "type": "string", "const": "BLOCKED" },
+        "AltitudeCollapse": { "type": "string", "const": "PREVENTED" }
+      },
+      "required": [
+        "MembraneIntegrity",
+        "ComparativeIngestion",
+        "AltitudeCollapse"
+      ]
+    },
+
+    "ComparativeStatus": {
+      "type": "string",
+      "const": "structured"
+    }
+  },
+
+  "required": [
+    "ReferenceObject",
+    "ExternalSystem",
+    "AltitudeMap",
+    "SemanticMap",
+    "DriftSignature",
+    "RecursionRisk",
+    "StabilityEnvelope",
+    "ComparativeStatus"
+  ]
+}
+
+/*
+NDH-TIDS Comparative Geometry JSON Schema v2.1
+Standards-Compliant Revision
+
+Purpose:
+  Revised to conform to NDH-TIDS Comparative Geometry Standards v1.0.
+  Ensures deterministic field types, strict enums, reversible mapping
+  constraints, stabilized drift signatures, membrane integrity encoding,
+  and schema purity.
+
+Version: v2.1
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 14 August 2026 — 14:22 IST
+*/
