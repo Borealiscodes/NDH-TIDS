@@ -161,3 +161,27 @@ This schema is **non‑operational** and **non‑activating**.
 
 ---
 
+---
+Artifact: TIDS JSON Schema — Snowflake Domain v1.0
+Lane: NDH‑TIDS • Schema Documentation • Surrogate Domain
+
+Purpose:
+  Document the internal JSON schema structure required for NDH‑TIDS ingestion of
+  the snowflake surrogate domain. Defines required fields, anchor lattice,
+  representational layers, invariant boundaries, membrane flags, drift signature
+  arrays, stability envelope objects, and ingestion constraints. Ensures
+  altitude coherence, membrane integrity, and SID‑safe reversible comparative
+  geometry for NDH‑TIDS v2.0.
+
+Scope:
+  Serves as the canonical schema reference for the RP → TIDS handoff. Provides
+  the documented, altitude‑correct, membrane‑defined structure without activating
+  NDH geometry, Harmony, SID primitives, routing logic, or comparative engines.
+
+Altitude: A4 — Comparative Geometry
+Status: Canonical, Non‑Operational
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 18 August 2026 — 17:01 IST
+---
+
