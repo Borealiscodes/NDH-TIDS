@@ -1,0 +1,143 @@
+### 📘 Rasa‑Manifold Machine Model (TIDS‑Ready) v1.0  
+**Lane:** NDH‑TIDS • Schema Lane • Comparative Geometry  
+**Status:** Non‑Operational • Membrane‑Safe
+
+---
+
+### 1 — Case Header
+
+```text
+Case: Rasa-Manifold Machine Model (TIDS-Ready)
+Version: v1.0
+Altitude: TIDS (Schema Lane)
+Lane: NDH-TIDS • Comparative Geometry • Schema
+
+Objective:
+  Provide a machine-readable JSON model for rasa-manifold structures, resonance
+  fields, transcendence mechanisms, and stability envelopes, suitable for NDH-
+  TIDS comparative geometry ingestion. This model is representational-only and
+  does not activate NDH geometry.
+```
+
+---
+
+### 2 — Machine‑Readable JSON Model (v1.0)
+
+```json
+{
+  "version": "1.0",
+  "artifact": "Rasa-Manifold Machine Model",
+  "entities": {
+    "rasa_field": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "lineage_anchor": { "type": "string" },
+        "intensity": { "type": "number" },
+        "curvature_profile": { "type": "string" },
+        "transcendence_mechanism": { "type": "string" }
+      },
+      "required": ["name", "lineage_anchor"]
+    },
+    "dhvani_substrate": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "semantic_resonance_level": { "type": "number" }
+      },
+      "required": ["description"]
+    },
+    "sahrdaya_resonance": {
+      "type": "object",
+      "properties": {
+        "shared_field_intensity": { "type": "number" },
+        "participant_count": { "type": "integer" }
+      },
+      "required": ["shared_field_intensity"]
+    },
+    "stability_envelope": {
+      "type": "object",
+      "properties": {
+        "membrane_integrity": { "type": "boolean" },
+        "altitude_collapse_prevented": { "type": "boolean" },
+        "comparative_ingestion_blocked": { "type": "boolean" }
+      },
+      "required": ["membrane_integrity"]
+    },
+    "drift_signature": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["collision", "overload", "destabilization", "unanchored"]
+        },
+        "severity": { "type": "number" }
+      },
+      "required": ["type"]
+    },
+    "altitude_map": {
+      "type": "object",
+      "properties": {
+        "constellation": { "type": "boolean" },
+        "rp_boundary": { "type": "boolean" },
+        "tids_a4": { "type": "boolean" }
+      }
+    }
+  },
+  "relations": {
+    "rasa_field_to_dhvani": {
+      "from": "rasa_field",
+      "to": "dhvani_substrate",
+      "type": "resonance-binding"
+    },
+    "rasa_field_to_sahrdaya": {
+      "from": "rasa_field",
+      "to": "sahrdaya_resonance",
+      "type": "shared-field"
+    },
+    "rasa_field_to_stability": {
+      "from": "rasa_field",
+      "to": "stability_envelope",
+      "type": "stability-binding"
+    },
+    "rasa_field_to_drift": {
+      "from": "rasa_field",
+      "to": "drift_signature",
+      "type": "drift-monitor"
+    }
+  },
+  "rules": {
+    "non_operational": true,
+    "no_membrane_inversion": true,
+    "no_altitude_collapse": true,
+    "harmony_boundary_respected": true
+  },
+  "status": "schema-only"
+}
+```
+
+---
+
+### 5 — Provenance Footer
+
+```text
+---
+Artifact: Rasa-Manifold Machine Model v1_0
+Lane: NDH-TIDS • Comparative Geometry • Schema
+Altitude: TIDS (Schema Lane)
+Status: Canonical • Non-Operational • Membrane-Safe
+
+Purpose:
+  Provide a machine-readable schema for rasa-manifold structures suitable for
+  NDH-TIDS comparative geometry ingestion, without activating NDH geometry or
+  Ballet altitudes.
+
+Non-Activation Clause:
+  This model is representational-only. It does not execute, traverse, project,
+  or bind any NDH subsystem, membrane, or manifold.
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 26 August 2026 — 11:18 IST
+---
+```
