@@ -1,0 +1,133 @@
+### 📘 Rasa‑Manifold Comparative Geometry Set v1.0  
+**Lane:** NDH‑TIDS • Comparative Geometry • Output  
+**Status:** Canonical • Non‑Operational • Membrane‑Safe  
+
+---
+
+### 1 — Case Header
+
+```text
+Case: Rasa-Manifold Comparative Geometry Set
+Version: v1.0
+Altitude: TIDS (A4 — Comparative Geometry)
+Lane: NDH-TIDS • Comparative Geometry • Output
+
+Objective:
+  Encode the comparative geometry mappings, drift signatures, and stability
+  envelopes derived from the Rasa-Manifold Machine Model and Emergent Case
+  Study. Provide a reversible, membrane-safe geometry set without activating
+  NDH geometry or Ballet traversal.
+```
+
+---
+
+### 2 — Human‑Readable Geometry Mapping Summary
+
+```text
+StructuralMappings:
+  - RasaField → CONSTELLATION (Lighting • Resonance • Mood)
+  - DhvaniSubstrate → Boundary/Atmosphere
+  - SahrdayaResonance → SharedField/Clarity
+  - CurvatureProfile → AffectiveCurvature (Non-Computational)
+  - TranscendenceMechanism → EpistemicAltitude (Non-Operational)
+
+SemanticMappings:
+  - Field → Boundary
+  - Atmosphere → Membrane
+  - Resonance → DriftDetection
+  - Universalization → Clarity
+  - DevotionalTranscendence → NonAuthority Epistemics
+
+DriftSignatures:
+  - collision
+  - overload
+  - destabilization
+  - unanchored
+
+StabilityEnvelopes:
+  - MembraneIntegrity: TRUE
+  - AltitudeCollapse: PREVENTED
+  - ComparativeIngestion: COMPLETE (Non-Recursive)
+```
+
+---
+
+### 3 — Machine‑Readable Comparative Geometry Set (v1.0)
+
+```json
+{
+  "version": "1.0",
+  "artifact": "Rasa-Manifold Comparative Geometry Set",
+  "mappings": {
+    "structural": [
+      {
+        "from": "rasa_field",
+        "to": "CONSTELLATION",
+        "type": "contrastive",
+        "notes": "Lighting/Resonance/Mood only; non-computational."
+      },
+      {
+        "from": "dhvani_substrate",
+        "to": "BoundaryAtmosphere",
+        "type": "contrastive"
+      },
+      {
+        "from": "sahrdaya_resonance",
+        "to": "SharedFieldClarity",
+        "type": "contrastive"
+      }
+    ],
+    "semantic": [
+      { "from": "field", "to": "Boundary", "type": "contrastive" },
+      { "from": "atmosphere", "to": "Membrane", "type": "contrastive" },
+      { "from": "resonance", "to": "DriftDetection", "type": "contrastive" },
+      { "from": "universalization", "to": "Clarity", "type": "contrastive" }
+    ]
+  },
+  "drift_signatures": [
+    "collision",
+    "overload",
+    "destabilization",
+    "unanchored"
+  ],
+  "stability_envelope": {
+    "membrane_integrity": true,
+    "altitude_collapse_prevented": true,
+    "comparative_ingestion_complete": true
+  },
+  "rules": {
+    "reversible": true,
+    "non_operational": true,
+    "no_membrane_inversion": true,
+    "no_recursion": true,
+    "harmony_boundary_respected": true
+  },
+  "status": "final-comparative-output"
+}
+```
+
+---
+
+### 6 — Provenance Footer
+
+```text
+---
+Artifact: Rasa-Manifold Comparative Geometry Set v1_0
+Lane: NDH-TIDS • Comparative Geometry • Output
+Altitude: TIDS (A4 — Comparative Geometry)
+Status: Canonical • Non-Operational • Membrane-Safe
+
+Purpose:
+  Provide the final comparative geometry mappings for the Rasa-Manifold domain,
+  including structural and semantic mappings, drift signatures, and stability
+  envelopes, in a reversible and governance-ready format.
+
+Non-Activation Clause:
+  This artifact is descriptive-only. It does not activate, execute, traverse,
+  or bind any NDH geometry, Ballet altitude, or manifold engine.
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 26 August 2026 — 11:35 IST
+---
+```
